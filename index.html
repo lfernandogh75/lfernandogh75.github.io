@@ -18,7 +18,7 @@
     <div class="container-lg my-5">
         <div class="row shadow-lg rounded-4 overflow-hidden">
             
-             <!-- clumna Izquierda --> 
+             <!-- columna Izquierda --> 
              <div class="col-md-4 bg-primary text-white p-4">
                 <header class="text-center">
                     <img src="img/foto.jpg"
@@ -60,16 +60,143 @@
                             </a></li>
                         </ul>
                 </section>
+                 <!-- Habilidades -->
+                <section class="mb-4">
+                    <h5 class="fw-bold mb-4">
+                        <i class="fa-solid fa-code me-3"></i>
+                        Habilidades
+                    </h5>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar"  style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Ingles</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar"  style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Ingles</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar"  style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-3">
+                        <div class="d-flex justify-content-between">
+                            <span>Ingles</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress" style="height: 8px;">
+                            <div class="progress-bar"  style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </section>
              </div>
-              <!-- clumnaa derecha -->
-              <div class="col-md-8">
-                <p>hola</p>
+              <!-- columnaa derecha -->
+              <div class="col-md-8 bg-light p-4">
+                <section class="mb-4">
+                        <h4 class="fw-bold text-primary">
+                            <i class="fa-solid fa-briefcase me-3"></i>
+                            Experiencia Laboral
+                        </h4>
+                        <div class="card mb-3 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">
+                                        Desarrollador Front-End Senior
+                                    </h4>
+                                    <h5 class="card-subtitle mb-2 text-muted small">2020 - Actualidad</h5>
+                                <h6 class=" text-primary">
+                                    Empresa de Tecnológia
+                                </h6>
+                         <ul class="mt-3">
+                            <li>Liderazgo en equipo de desarrollo de software</li>
+                            <li>Implementación de arquitectura API</li>
+                            <li>Optimización de rendimiento</li>
+                        </ul>
+                                </div>
+                        </div>
+                        <div class="card mb-3 border-0 shadow-sm">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    Desarrollador Front-End Senior
+                                </h4>
+                                <h5 class="card-subtitle mb-2 text-muted small">2020 - Actualidad</h5>
+                            <h6 class=" text-primary">
+                                Empresa de Tecnológia
+                            </h6>
+                     <ul class="mt-3">
+                        <li>Liderazgo en equipo de desarrollo de software</li>
+                        <li>Implementación de arquitectura API</li>
+                        <li>Optimización de rendimiento</li>
+                    </ul>
+                            </div>
+                    </div>
+                </section>
+                <section  class="mb-5" >
+                    <h4 class="fw-bold text-primary mb-4">
+                        <i class="fa-solid fa-graduation-cap me-3"></i>
+                        Educación
+                    </h4>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">
+                                Aspirante a Maestria en Ia
+                            </h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">2025 - Actualmente</h5>
+                        <h6 class=" text-primary">
+                            Universidad de Caldas
+                        </h6>
+                 <ul class="mt-3">
+                    <li>Analisis de IA Generacionale.</li>
+                    <li>conexión de resdes neuronales.</li>
+                    <li>Aprendizaje autónomo</li>
+                </ul>
+                        </div>
+                </div>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">
+                                Ingeniero de Sistemas
+                            </h4>
+                            <h5 class="card-subtitle mb-2 text-muted small">2003 - 2008</h5>
+                        <h6 class=" text-primary">
+                            Universidad cooperativa de colombia
+                        </h6>
+                 <ul class="mt-3">
+                    <li>Habilidades en desarrollo JAVA.</li>
+                    <li>Habilidades en bases de datos MySQL.</li>
+                    <li>Habilidades  en PHP y Laravel</li>
+                </ul>
+                        </div>
+                </div>
+
+                </section>
               </div>
         </div>
     </div>
 
-
+<div class="text-center my-4">
+    <button onclick="dowloadPDF()">
+        descargar PDF
+        <i class="fa-solid fa-file-pdf ms-2"></i>
+    </button>
+</div>
+ <!-- crear el pdf html2pdf -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
